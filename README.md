@@ -15,8 +15,10 @@ you will need something like OpenRGB or similar with capacity to handle input fr
 4. now create a minimum of 2 profiles, one that is how your lights will look when you're streaming/recording and another that will set your lights back to how they where once you end recording/stream.
 5. with that setup go into OBS and under the tools menu select scripts, use the + to open up the file explorer of your system and navigate to find the script you downloaded from here and load it up into OBS.
 6. here is where the tricky bit may start:
+
 Windows users:
 	you will need to write the full path to the exe file of OpenRGB in the "Prefix" field, "C:\Users\[your username]\OpenRGB\OpenRGB.exe" as an example and yes use \ instead of /, in the Rec field write "--profile 'name of the recording profile'" and "--profile 'Reset to normal name profile'" in the reset field.
+
 Linux users:
 	you will need to write the command used to launch OpenRGB from a terminal into the prefix field, "openrgb" should be the command unless changed, as for the windows users write "--profile 'Rec/Reset profile names'" into the respective Rec and Reset fields.
 
