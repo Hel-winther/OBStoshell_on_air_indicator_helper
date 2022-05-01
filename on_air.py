@@ -13,7 +13,7 @@ ex_reset = ""
 def script_description():
     a = "Read the instructions on github before using any commands in this script!\n"
     b = "Prefix refers to the path to the program that you want to use as controller, for example OpenRGB. \n"
-    c = "Rec and Reset refers to the respective profiles you created within OpenRGB, in these fields write '-p Rec' or the respective names of the profiles you created.\n"
+    c = "Rec and Reset refers to the respective profiles you created within OpenRGB, in these fields write '--profile Rec' or the respective names of the profiles you created.\n"
     description = a + b + c 
     return description 
     
