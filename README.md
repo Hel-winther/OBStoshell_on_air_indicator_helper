@@ -1,7 +1,8 @@
 # OBStoshell_on_air_indicator_helper
 A small python script that allows you to execute shell commands when starting/stopping stream/recording
 Orignally intended to control the RGB lighting on keyboards etc to give you a visual feedback that OBS is streaming/recording
-
+https://github.com/Hel-winther/OBStoshell_on_air_indicator_helper/blob/main/Replay%202022-05-01%2021-58-30.mp4
+https://github.com/Hel-winther/OBStoshell_on_air_indicator_helper/blob/main/Screenshot_20220501_222339.png
 # Prerequisits
 
 https://gitlab.com/CalcProgrammer1/OpenRGB/-/releases/
