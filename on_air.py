@@ -38,8 +38,8 @@ def script_update(settings):
     prefix = obs.obs_data_get_string(settings, "Prefix")
     start_set = obs.obs_data_get_string(settings, "Rec")
     reset_set = obs.obs_data_get_string(settings, "Reset")
-    ex_start = prefix + start_set
-    ex_reset = prefix + reset_set
+    ex_start = prefix + " " + start_set
+    ex_reset = prefix + " " + reset_set
 
 def script_defaults(settings):
     obs.obs_data_set_default_string(settings, "Prefix", "")
